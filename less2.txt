@@ -1,0 +1,10 @@
+a. int(3.0): Konwertuje wartość float 3.0 na liczbę całkowitą, co daje 3.
+
+b. float(3): Konwertuje liczbę całkowitą 3 na float, co daje 3.0.
+
+c. float("3"): Konwertuje ciąg "3" (reprezentujący liczbę) na float, co daje 3.0.
+
+d. str(12, 4): Powoduje to błąd. Funkcja str() przyjmuje pojedynczy argument do konwersji lub oczekuje opcjonalnego argumentu kodowania, ale tutaj podano 
+   dwie liczby, co powoduje błąd: argument str() 'kodowanie' musi być str, nie int.
+
+e. bool(0): Konwertuje liczbę całkowitą 0 na wartość logiczną, co daje False, ponieważ 0 jest traktowane jako False w Pythonie.
